@@ -1,0 +1,40 @@
+{
+  "name": "e",
+  "version": "1.0.0",
+  "description": "a tool for translate english",
+  "main": "index.js",
+  "bin": {
+    "e": "index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whyang115/e.git"
+  },
+  "keywords": [
+    "e",
+    "tool",
+    "translate",
+    "english"
+  ],
+  "author": "whyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whyang115/e/issues"
+  },
+  "homepage": "https://github.com/whyang115/e#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "chalk": "^2.1.0",
+    "jest": "^21.0.1"
+  },
+  "devDependencies": {
+    "jest": "^21.0.1"
+  }
+}
